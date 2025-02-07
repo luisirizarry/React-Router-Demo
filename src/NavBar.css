@@ -1,0 +1,23 @@
+/* Simple styles for the NavBar component */
+.NavBar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .NavBar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .NavBar a:hover {
+    background-color: #ddd;
+  }
+  
